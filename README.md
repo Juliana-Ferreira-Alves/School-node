@@ -5,4 +5,4 @@ Essa é uma oportunidade maravilhosa que a MJV está proporcionando para conhece
 do Back End, e como tal estou abraçando essa oportunidade com muita alegria, uma vez que
 sou da área de Qualidade e apaixonada por testes automatizados e principalmente de Back End!
 
-Feliz por ser uma MJV!!!
+Feliz por ser uma MJVer!!!
