@@ -1,20 +1,12 @@
 import express from 'express';
-import { Request, Response, Router } from 'express';
 import cors from 'cors';
+import routes from './routers';
 
 const app = express();
 
 app.use(cors ());
 app.use(express.json());
-
-const route = Router();
-
-route.get('/', (req: Request, res: Response) => {
-    const healthCheck = {message: 'Aplicação funcionando com sucesso!'};
-    res.send(healthCheck);
-});
-
-app.use(route);
+app.use(routes);
 
 const port = 3000;
 
