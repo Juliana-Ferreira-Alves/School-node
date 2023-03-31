@@ -46,14 +46,14 @@ const products = [
 ];
 
 
-//GET -> 1) Crie um arquivo com uma rota GET para retornar o seguinte objeto:
+//GET (Buscar Produto) => 1) Crie um arquivo com uma rota GET para retornar o seguinte objeto:
 
 router.get('/', (req: Request, res: Response) => {
     res.send(products);
 });
 
 
-//POST -> 2) Crie um endpoint de POST para adicionar item no array do exercício 1.
+//POST (Criar Produto) => 2) Crie um endpoint de POST para adicionar item no array do exercício 1.
 
 router.post('/', (req: Request, res: Response) => {
     products.push(req.body);
@@ -61,7 +61,7 @@ router.post('/', (req: Request, res: Response) => {
 
 });
 
-//PUT -> 3) Crie um endpoint de PUT para atualizar um item no array do exercício 1.
+//PUT (Atualizar Produto) => 3) Crie um endpoint de PUT para atualizar um item no array do exercício 1.
 
 router.put('/:id', (req: Request, res: Response) => {
     const productIndex = products.findIndex((product) => product.id === req.params.id);
@@ -72,7 +72,7 @@ router.put('/:id', (req: Request, res: Response) => {
     res.status(200).send({ message: 'Produto atualizado com sucesso!' });
 })
 
-//DELETE -> 4) Crie um endpoint de DELETE para remover um item no array do exercício 1.
+//DELETE (Remover Produto) => 4) Crie um endpoint de DELETE para remover um item no array do exercício 1.
 
 router.delete('/remove/:id', (req: Request, res: Response) => {
     const productIndex = products.findIndex((product) => product.id === req.params.id);
