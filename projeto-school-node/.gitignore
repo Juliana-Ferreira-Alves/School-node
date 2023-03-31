@@ -1,1 +1,37 @@
 node_modules
+
+aula 3: 3ª Semana
+const students = [
+    {
+        name: 'Juliana Alves',
+        email: 'analistajferreiraalves@gmail.com',
+        document: '51938554744',
+        password: '123456',
+        age: 22
+    },
+
+    {
+        name: 'Eduardo Alves',
+        email: 'eduaazv@gmail.com',
+        document: '12088739700',
+        password: '123456',
+        age: 23
+    },
+
+    {
+        name: 'João Pedro Alves',
+        email: 'jpalves@gmail.com',
+        document: '11663459711',
+        password: '123456',
+        age: 21
+    },
+
+    {
+        name: 'Beatriz Martins',
+        email: 'biamartins@gmail.com',
+        document: '40756964725',
+        password: '123456',
+        age: 21
+    },
+
+];
