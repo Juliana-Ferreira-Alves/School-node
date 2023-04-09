@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import routes from './routers';
-
+import connection from './config/database';
 
 const appProd = express();
 
@@ -13,8 +13,13 @@ appProd.use(routes);
 
 const port = 3000;
 
-appProd.listen(port, () => {
-    console .log ('Aplicação está on!', port);
-});
+connection.then(() => {
+    console.log('Banco de dados Conectado!');
+    appProd.listen(port, () => {
+        console .log ('Aplicação está on!', port);
+    });
+}).catch((err) => console.log(err));
+
+
 
 
