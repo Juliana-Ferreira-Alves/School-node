@@ -1,20 +1,24 @@
-import { Product } from "../models/products.model";
+import { IProduct, Product } from "../models/products.model";
 
 class ProductRepository {
     getAll() {
         return Product.find();
     }
 
-    create(product: typeof Product){
+    getById(id: number) {
+        return Product.findOne({id: id});
+    }
+
+    create(product: IProduct){
         return Product.create(product);
     }
 
-    update(id: number, product: Partial<typeof Product>){
-        return Product.updateOne({ id: id }, {$set: product});
+    update(id: number, product: Partial<IProduct>){
+        return Product.updateOne({id: id }, {$set: product});
     }
 
     remove(id: number){
-        return Product.deleteOne({ id: id});
+        return Product.deleteOne({id: id});
     }
 }
 
