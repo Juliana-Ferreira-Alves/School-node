@@ -28,3 +28,4 @@ O projeto segue a seguinte estrutura de pastas:
     package.json: arquivo que lista as dependências do projeto;
     tsconfig.json: arquivo de configuração do TypeScript.
 
+P.S. -> O projeto será evoluído, não vai parar por aqui!!!!
