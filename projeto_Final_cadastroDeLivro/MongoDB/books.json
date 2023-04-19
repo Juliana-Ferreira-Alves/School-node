@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "643ed6fb357603378c28007e"
+  },
+  "ISBN": "B09SV997FR",
+  "title": "Enquanto Você Dormia",
+  "author": "Terezinha de Jesus",
+  "gender": "Romance",
+  "publisher": "Editora do Brasil S/A",
+  "ageRating": 14,
+  "createdAt": {
+    "$date": "2023-04-18T17:22:07.101Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643ed8c4357603378c280093"
+  },
+  "ISBN": "B00TUD0PIA",
+  "title": "Patinho Feio",
+  "author": "Terezinha de Jesus",
+  "gender": "Livre",
+  "publisher": "Armada de Papel",
+  "ageRating": 0,
+  "createdAt": {
+    "$date": "2023-04-18T17:22:07.101Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643ed95a357603378c280098"
+  },
+  "ISBN": "B09SV997FR",
+  "title": "Romeu e Julieta",
+  "author": "William Shakespeare",
+  "gender": "Romance",
+  "publisher": "Editora do Brasil S/A",
+  "ageRating": 14,
+  "createdAt": {
+    "$date": "2023-04-18T17:22:07.101Z"
+  },
+  "__v": 0
+}]
