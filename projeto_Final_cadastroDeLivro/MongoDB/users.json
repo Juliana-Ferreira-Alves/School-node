@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "643ed1ef357603378c280067"
+  },
+  "name": "Juliana Alves",
+  "email": "ja@gmail.com",
+  "document": "10444706070",
+  "password": "$2b$10$Y4lKpGF99bQDIx7R9NaPZuX7JJUZa5Qp1lolYaGRCB4HhU8Wt4/ui",
+  "age": 35,
+  "createdAt": {
+    "$date": "2023-04-18T17:22:06.871Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643ed215357603378c28006a"
+  },
+  "name": "Eduardo Alves",
+  "email": "edua@gmail.com",
+  "document": "48687608071",
+  "password": "$2b$10$XnUQhAZY3/7U/nbA73eSsOvCboAsEmgYshl.1xeKb7SqLlK2ZTmwW",
+  "age": 36,
+  "createdAt": {
+    "$date": "2023-04-18T17:22:06.871Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643ed248357603378c28006d"
+  },
+  "name": "João Pedro Alves",
+  "email": "jpa@gmail.com",
+  "document": "37734805043",
+  "password": "$2b$10$EuGhsbAICDLrp8PfWetPDe1c1eA5m6qhhjFPeN9sqtEEq6q1j0o.C",
+  "age": 7,
+  "createdAt": {
+    "$date": "2023-04-18T17:22:06.871Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643ed2f4357603378c280075"
+  },
+  "createdAt": {
+    "$date": "2023-04-18T17:22:06.871Z"
+  },
+  "__v": 0
+}]
